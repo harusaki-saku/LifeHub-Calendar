@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   env: {
     NEXT_PUBLIC_COGNITO_CLIENT_ID:
-      process.env.NEXT_PUBLIC_COGNITO_CLIENT_ID ?? '5k246nqu6p30f9lfnbpatlutvf',
+      process.env.NEXT_PUBLIC_COGNITO_CLIENT_ID ?? '',
     NEXT_PUBLIC_API_URL:
       process.env.NEXT_PUBLIC_API_URL ?? 'https://api.showlabo.com/v1',
     NEXT_PUBLIC_AUTH_DOMAIN:
